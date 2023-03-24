@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPMProgrammingExcercise", "RPMProgrammingExcercise\RPMProgrammingExcercise.csproj", "{BF84BFA7-FF02-49FB-A3B8-10836D59CE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8675467B-38A5-4576-ADFD-9836984594EE}"
+	ProjectSection(SolutionItems) = preProject
+		api.eia.gov.json = api.eia.gov.json
+		RPM Programming Excercise.txt = RPM Programming Excercise.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIA.Tests", "EIA.Tests\EIA.Tests.csproj", "{59C3CA8C-5C01-4DA1-A73D-1A488AE41444}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EIA", "EIA\EIA.csproj", "{58ED6A6E-8E7F-4BF8-AACD-7B367AB04243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF84BFA7-FF02-49FB-A3B8-10836D59CE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF84BFA7-FF02-49FB-A3B8-10836D59CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF84BFA7-FF02-49FB-A3B8-10836D59CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF84BFA7-FF02-49FB-A3B8-10836D59CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C3CA8C-5C01-4DA1-A73D-1A488AE41444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C3CA8C-5C01-4DA1-A73D-1A488AE41444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C3CA8C-5C01-4DA1-A73D-1A488AE41444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C3CA8C-5C01-4DA1-A73D-1A488AE41444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ED6A6E-8E7F-4BF8-AACD-7B367AB04243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ED6A6E-8E7F-4BF8-AACD-7B367AB04243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ED6A6E-8E7F-4BF8-AACD-7B367AB04243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ED6A6E-8E7F-4BF8-AACD-7B367AB04243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E276191-2E31-4059-BDE5-171DCC96FD5A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+Insure .net 7.0 is installed on machine by running the following
+	dotnet --info
+
+Create DB [RPMProgrammingExcercise] to use with app.
+
+Create table [FuelPrices] by running FuelPrices.sql.
+
+Copy following files to desired location
+	runtimes (folder)
+	Config.config
+	EIA.dll
+	Innovoft.Collections.dll
+	Innovoft.Text.JSON.dll
+	InstallService.ps1
+	RPMProgrammingExcercise.dll
+	RPMProgrammingExcercise.exe
+	RPMProgrammingExcercise.runtimeconfig.json
+	System.Data.SqlClient.dll
+	System.Diagnostics.EventLog.dll
+	System.ServiceProcess.ServiceController.dll
+
+Update Config.config values such as DB/ConnectionString
+
+You can run program as a console app, if you do not want to register it as a windows service.
+
+To register as a windows service:
+	Run InstallService.ps1
+	After registering open Services and modify settings for RPMProgrammingExcercise as desired.
